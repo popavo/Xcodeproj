@@ -78,6 +78,12 @@ module Xcodeproj
         #
         attribute :comments, String
 
+        # @return [String] Whether to include files in index
+        #
+        # @note   This is apparently no longer used by Xcode.
+        #
+        attribute :includeInIndex, String
+
 
         public
 
